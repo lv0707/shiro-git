@@ -22,6 +22,7 @@ public class UserController {
 	@ResponseBody
 	public String hello(){
 		System.out.println("UserController.hello()");
+		System.out.println("hello");
 		return "ok";
 	}
 	
